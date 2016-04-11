@@ -1,0 +1,11 @@
+.git
+.gitignore
+.sync-config.cson
+LICENSE*
+README*
+
+.tags
+*.swp
+*.lck
+*.*!
+*~

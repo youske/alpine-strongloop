@@ -1,0 +1,13 @@
+version: "2"
+services:
+
+  strongloop:
+    container_name: strongloop
+    build: build
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 20000
+        hard: 40000
+    ports:
+      - "3000:3000"
